@@ -11,7 +11,7 @@ class Program
         Console.WriteLine(homeworkList1);
 
         Console.WriteLine();
-        
+
         WritingAssignments write1 = new WritingAssignments("Michael Jordan", "Social Science", "I Can't Accept Not Trying: Michael Jordan on the Pursuit of Excellence");
         string summary2 = write1.GetSummary();
         string writeinformation1 = write1.GetWritingInformation();
