@@ -21,7 +21,7 @@ class Program
 
             double area = shape.GetArea();
 
-            Console.WriteLine($"The {color} shape has an area of {area.ToString("F2")} cm");
+            Console.WriteLine($"The {color} shape has an area of {area.ToString("F2")} cm²");
         }
 
     }
